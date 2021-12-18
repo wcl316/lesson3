@@ -1,40 +1,174 @@
-ul#horizontal-list {list-style: none;}
+ul#horizontal-list {
+    list-style: none;
+    margin-left: 70px;
+    margin-top: 100px;
+    }
+ul#horizontal-list li {
+    display: inline;
+    margin-right: 20px;
+}
+#active-page{
+    color: #EE4036;
+}
+.container {
+    position: relative;
+    /* text-align: center; */
+    color: white;
+    margin-left: 5.5%;
+    padding-bottom: 30px;
+}
+.top-left-text {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 30px;
+}
+.text {
+    inline-size: 350px;
+    overflow-wrap: break-word;
+}
+#news { 
+        margin-left: 40px; 
+        max-width: 80%; 
+        font-size: 16px;
+    }
+#news1 { 
+        margin-left:40px; 
+        max-width: 80%; 
+        font-size: 16px;
+    }
+#news2 { 
+        margin-left: 40px;
+        max-width: 80%; 
+        font-size: 16px;
+    }
+a[href^="mailto"]::before {
+    content: "📧 ";
+    }
 
-ul#horizontal-list li {display: inline; margin-right: 20px;}
+a[href^="tel"]::before {
+    content: "📞 ";
+    }
+address { 
+    margin-left: 5.5%;
+    margin-right: auto;
+    padding-top: 4%;
+    padding-bottom: 5%;
+}
 
-#active-page {color: #EE4036;}
+.w3-display-middle{position:relative;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
 
-.container {position: relative; color: white; margin-left: 40px;}
+.adddiv {
+    background-color: #E6E6E6;
+    height: 30%;
+    width: 100%;
+    display: inline-block;
+}
 
-.top-left-text {position:absolute; top:8px; left:16px; font-size:30px;}
+h3 {
+    color:#3D58A6;
+    line-height: 0px;
+    font-family: "BPG Nino Mtavruli Bold", sans-serif;
+}
+h2 {    
+    background-color:#3D58A6;
+    color:#ffffff;
+    height:50px;
+    font-size: 45px;
+    width: 45px;
+    margin-bottom: 0px;
+}
 
-.text {inline-size:350px; overflow-wrap:break-word;}
+article {
+    padding: 15px 0px 15px 0px;
+}
+#vline {
+    border: 1px solid #3D58A6;
+    height: 35px;
+    margin-left: 0px;
+    margin-right:0px;
+    display: inline;
+    padding-top: 18px;
+}
+a {
+    text-decoration: none;
+}
+.hhh {
+    font-family: "BPG Nino Mtavruli", sans-serif;
+}
+.artm {
+    font-family: "BPG Ingiri Arial", sans-serif;
+    font-size: 16px;
+    margin-left: 330px;
+}
 
-#nw {margin-left:40px; max-width:80%; font-size:16px;}
-#nw1 {margin-left:40px; max-width:80%; font-size:16px;}
-#nw2 {margin-left:40px; max-width:80%; font-size:16px;}
-
-a[href^="mailto"]::before {content: "📧 ";}
-a[href^="tel"]::before {content: "📞 ";}
-
-address {text-align:center; margin-left:auto; margin-right:auto; padding-top:9%; padding-bottom:9%;}
-
-h3 {color:#3D58A6; line-height: 0px; font-family: "BPG Nino Mtavruli Bold", sans-serif;}
-
-h2 {background-color:#3D58A6; color:#ffffff; height:50px; font-size:45px; width:45px; margin-bottom:0px;}
-
-article {padding:15px 0px 15px 0px;}
-
-#vln {border:1px solid #3D58A6; height:35px; margin-left:0px; margin-right:0px; display:inline; padding-top:18px;}
-
-a {text-decoration:none;}
-
-.hhh {font-family: "BPG Nino Mtavruli", sans-serif;}
-
-.mainarticle {font-family: "BPG Ingiri Arial", sans-serif; font-size:16px;}
-
-#articlename {color:#3D58A6; font-size:18px; font-family: "BPG Nino Mtavruli", sans-serif; padding-top:3px;}
-
-.apage {font-family: "BPG Nino Mtavruli Bold", sans-serif;}
-
-.links {font-family: "BPG Nino Mtavruli", sans-serif;}
+#artn {
+    color:#3D58A6;
+    font-size: 18px;
+    font-family: "BPG Nino Mtavruli", sans-serif;
+    padding-top: 3px;
+}
+.apage {
+    font-family: "BPG Nino Mtavruli Bold", sans-serif;
+    display: inline-block;
+    margin-right: 9px;
+    padding-top: 6px;
+    margin-bottom: 20px;
+}
+.a3 {
+    font-family: "BPG Nino Mtavruli", sans-serif;
+}
+.mlist {
+    list-style: none;
+}
+.html {
+    margin-left: 40px;
+    float:inline-start;
+    margin-right: 40px;
+}
+.cp1 {
+    margin-left: 5.5%;
+    font-size: 24px;
+    font-family: 'roboto-regular';
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'roboto-regular';
+    src: url('../fonts/Robot-Regular.ttf'); 
+}
+a:focus {
+	color:#9124d8 ;
+}
+a:hover {
+	color: #1de5c3;
+}
+.nwa {
+    background-color: #F2F2F2;
+    display: inline-block;
+	width: 532px;
+    height: 180px;
+    margin-left: 5.5%;
+}
+.nwa1 {
+    font-family: 'roboto-regular';
+    color:#3D58A6;
+    font-size: 22px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+.nwa img {
+    float:inline-start;
+    margin-left: 20px;
+}
+.nwa11 {
+    font-family: 'roboto-regular';
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 20px;
+    width: 380px;
+    height: 125px;
+}
+.nwimg {
+    margin-top: 20px;
+    float:inline-start;
+}
